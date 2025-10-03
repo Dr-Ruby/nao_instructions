@@ -94,6 +94,7 @@
         <p>by BCIT ECE Capstone Team</p>
     </header>
 
+    <!-- Video Tutorials Section -->
     <section id="mainContent">
         <h2>Video Tutorials</h2>
         <ul>
@@ -101,6 +102,20 @@
             <li><a href="assets/videos/programming_basics.mp4" target="_blank">Programming Basics (Coming Soon)</a></li>
             <li><a href="assets/videos/audio_processing.mp4" target="_blank">Audio Processing (Coming Soon)</a></li>
             <li><a href="assets/videos/vision_system.mp4" target="_blank">Vision System (Coming Soon)</a></li>
+        </ul>
+    </section>
+
+    <!-- Tutorial Documents Section -->
+    <section id="documentSection">
+        <h2>Tutorial Documents</h2>
+        <ul>
+            <li>
+                Basic Setup Documents
+                <div>
+                    <a href="assets/docs/NAO-Basics.docx" download>📄 Word</a> |
+                    <a href="assets/docs/NAO-Basics.pdf" download>📕 PDF</a>
+                </div>
+            </li>
         </ul>
     </section>
 
@@ -116,6 +131,7 @@
                 document.getElementById("loginBox").style.display = "none";
                 document.getElementById("mainContent").style.display = "block";
                 document.getElementById("mainHeader").style.display = "block";
+                document.getElementById("documentSection").style.display = "block";
                 document.getElementById("mainFooter").style.display = "block";
             } else {
                 alert("Incorrect username or password");
